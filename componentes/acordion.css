@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+  }
+.container{
+   width: 500px;
+  box-shadow: 8px 13px 35px rgba(0, 0, 0, 5);
+  margin: auto 700px;
+  background-color: blue;
+  padding: 10px;
+}
+
+.historia.historia2.historia3.historia4{
+   overflow: hidden;
+   max-height: 0;
+   text-align: justify;
+   background: black;
+   transition: all 0.2s ease-in;
+ 
+}
+section:target{
+    max-height: 120px;
+    padding: 10px;
+}
+section p {
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    font-family: "Roboto Slab", serif;
+    background: #e4e4e4;
+    transition: all 0.2s ease-in;
+    background-color: var(--violeta);
+  }
+    
+  section a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: var(--amarillo);
+    border-bottom: 2px solid gray;
+    color: black;
+  }
+    
+  section:target p {
+    max-height: 120px;
+    padding: 10px;
+  }
+
+ .segundo{
+    background-color: hotpink;
+    width: 500px;
+    margin: auto 700px;
+    background-color: var(--rojo);
+    padding: 10px;
+
+ }
+ .histotia5.historia6.historia7.historia8{
+    overflow: hidden;
+   max-height: 0;
+   text-align: justify;
+   background: #e4e4e4;
+   transition: all 0.2s ease-in;
+ 
+ }
+
+ .btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .btn-primary {
+    background-color: hotpink
+    color:white;
+    }
+    
+    .btn-primary:hover {
+    background-color: hotpink
+    }
+    
+    .btn-primary:focus {
+    box-shadow: 0 0 0 2px hotpink
+    }
+    
+
+    

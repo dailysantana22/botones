@@ -9,9 +9,12 @@
 @import url(componentes/variables.css);
 @import url(componentes/botones.css);
 @import url(componentes/lista.css);
-
-
-
+@import url(acordion.css);
+@import url(componentes/acordion.css);
+@import url(pagination.css);
+@import url(componentes/pagination.css);
+@import url(card.css);
+@import url(componentes/card.css);
 * {
   margin: 0;
   padding: 0;

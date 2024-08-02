@@ -62,4 +62,67 @@
 
 
 }
-  
+.boton {
+  width: 120px;
+  background-color: purple;
+  padding: 12px;
+  border: solid 1px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: 30px;
+  align-items: center;
+}
+.boton--border {
+  border: solid 1px #323233;
+  background-color: #fff;
+  color: blueviolet;
+}
+
+.boton__texto {
+  /* color: #fff;*/
+}
+.boton__icono {
+  /*  color: #fff;*/
+}
+.boton:hover {
+  background-color: #ffff;
+  color: blueviolet;
+  border: solid 1px rgb(0, 0, 0);
+}
+.boton--border:hover {
+  background-color: #bf17f2;
+  color: rgb(255, 255, 255);
+  border: solid 1px pink;
+}
+.boton--violeta :hover {
+  border: solid 1px var(--violeta);
+  background: var(--violeta);
+  color: #fff;
+  border: solid 1px #323233;
+}
+.boton--amarillo {
+  border: solid 1px var(--amarillo);
+  background: var(--amarillo);
+  color: #fff;
+  border: solid 1px #323233;
+}
+.boton--rojo {
+  border: solid 1px var(--rojo);
+  background: var(--rojo);
+  color: #fff;
+  border: solid 1px #323233;
+}
+
+.boton--azul {
+    border: solid 1px var(--azul);
+  background: var(--azul);
+  color: #fff;
+  border: solid 1px #323233;
+
+
+}
